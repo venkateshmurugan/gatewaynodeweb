@@ -22,8 +22,6 @@
   },
   "homepage": "https://github.com/venkateshmurugan/gatewaynodeweb#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "unirest": "^0.6.0"
+    "express": "^4.17.1"
   }
 }
