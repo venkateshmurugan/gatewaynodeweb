@@ -4,8 +4,13 @@
   "description": "This will be a webhook for different Dialogflow applications",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "10.x"
+  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/venkateshmurugan/gatewaynodeweb.git"
@@ -15,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/venkateshmurugan/gatewaynodeweb/issues"
   },
-  "homepage": "https://github.com/venkateshmurugan/gatewaynodeweb#readme"
+  "homepage": "https://github.com/venkateshmurugan/gatewaynodeweb#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  }
 }
