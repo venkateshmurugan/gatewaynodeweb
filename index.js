@@ -13,7 +13,7 @@ app.post('/getBalance', function(request, response){
                                   "displayText":"Your Balance is $100"}))
 });
 
-app.post('/activate', function(request response){
+app.post('/activate', function(request, response){
     response.header('Content-Type', 'application/json');
     response.send(JSON.stringify({"speech": "Your card is successfully activated.",
                                   "displayText":"Your card is successfully activated."}))
